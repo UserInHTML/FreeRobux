@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Free Robux</title>
+  <style>
+    body {
+      background-image: url("https://images.rbxcdn.com/c83761712c58384892d63501cad3a1ee");
+      background-size: cover;
+      background-repeat: no-repeat;
+      position: relative;
+      text-align: center;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+    h1 {
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: bolder;
+      color: white;
+      font-size: 80px;
+    }
+    div {
+      height: 500px;
+      width: 400px;
+      background-color: black;
+      text-align: center;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      list-style-position: outside;
+      border-radius: 25px;
+      opacity: 90%;
+    }
+    h2 {
+      font-family: Arial, Helvetica, sans-serif;
+      color: white;
+      font-size: 40px;
+      padding-top: 20%;
+    }
+    h3 {
+      font-family: sans-serif;
+      color: white;
+      padding-top: 10%;
+    }
+    h4 {
+      font-family: sans-serif;
+      color: white;
+    }
+    .username {
+      height: 20px;
+      width: 50%;
+      left: 25%;
+      background-color: rgb(50, 50, 50);
+      border: none;
+      color: white;
+      font-weight: bold;
+      border-radius: 5px;
+      text-align: center;
+    }
+    .amount {
+      height: 20px;
+      width: 50%;
+      left: 25%;
+      background-color: rgb(50, 50, 50);
+      border: none;
+      color: white;
+      font-weight: bold;
+      border-radius: 5px;
+      text-align: center;
+    }
+    button {
+      height: 40px;
+      width: 100px;
+      background-color: white;
+      border: none;
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: bold;
+      border-radius: 50px;
+    }
+  </style>
+  <script>
+    function continueClick() {
+      var username = document.getElementById("username").value;
+      var amount = document.getElementById("amount").value;
+      alert(username + " is getting " + amount + " Robux, OK to continue.")
+      location.href = "loading.html"
+    }
+  </script>
+</head>
+<body>
+  <h1>FREE ROBUX</h1>
+  <div>
+    <h2>Welcome</h2>
+    <h3>Username</h3>
+    <input type="text" id="username" class="username" value="Example">
+    <h4>Amount</h4>
+    <input type="text" id="amount" class="amount" value="1000">
+    <h5> </h5>
+    <button onclick="continueClick()">Continue</button>
+  </div>
+</body>
+</html>
